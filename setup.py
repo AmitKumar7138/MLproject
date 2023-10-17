@@ -13,7 +13,7 @@ def get_requirements(file_path)->List[str]:
         requirements = [req.replace('\n','') for req in requirements]
         
         if hyphen_e_dot in requirements:
-            requirements.remove(hyphen_e_dot)
+            requirements.remove(HYPEN_E_DOT)
             
     return requirements
     
